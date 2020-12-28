@@ -1,0 +1,15 @@
+{
+  "name": "pamosystems-api",
+  "description": "Pamosystems API",
+  "package": {
+    "dependencies": {
+      "strapi-provider-email-nodemailer": "^3.4.0"
+    },
+    "scripts": {
+      "admin": "strapi develop --watch-admin"
+    },
+    "author": {
+      "name": "Paul Moreland"
+    }
+  }
+}
