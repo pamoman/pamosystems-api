@@ -1,9 +1,7 @@
 {
-  "name": "pamosystems-api",
-  "description": "Pamosystems API",
   "package": {
     "dependencies": {
-      "strapi-provider-email-nodemailer": "^3.4.0"
+      "strapi-provider-email-nodemailer": "latest"
     },
     "scripts": {
       "admin": "strapi develop --watch-admin"
